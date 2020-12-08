@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
+import { NavLink } from 'react-router-dom';
 import {
   Nav,
   NavbarContainer,
@@ -26,6 +27,10 @@ const Navbar = () => {
             <HamBurgerMenu onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </HamBurgerMenu>
+            {/* <NavMenu onClick={handleClick}>
+              <NavItem></NavItem>
+              <NavLink to='/'>Home</NavLink>
+            </NavMenu> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
@@ -34,3 +39,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//!Fix hamburger bug not displaying
