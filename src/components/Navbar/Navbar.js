@@ -8,6 +8,9 @@ import {
   NavLogo,
   NavIcon,
   HamBurgerMenu,
+  NavMenu,
+  NavItem,
+  NavLinks,
 } from './Navbar.elements';
 
 const Navbar = () => {
@@ -27,10 +30,20 @@ const Navbar = () => {
             <HamBurgerMenu onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </HamBurgerMenu>
-            {/* <NavMenu onClick={handleClick}>
-              <NavItem></NavItem>
-              <NavLink to='/'>Home</NavLink>
-            </NavMenu> */}
+            <NavMenu onClick={handleClick} click={click}>
+              <NavItem>
+                <NavLinks to='/'>Home</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/docs'>Docs</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/demo'>demo</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/blog'>blog</NavLinks>
+              </NavItem>
+            </NavMenu>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
