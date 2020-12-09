@@ -1,0 +1,8 @@
+.footerwrapper {
+  /* font-size: 5rem;
+  border: 1px solid red;
+  text-align: center;
+  padding: 3rem; */
+  display: flex;
+  justify-content: space-around;
+}
