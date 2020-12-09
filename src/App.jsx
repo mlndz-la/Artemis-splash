@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Title />
-      <Demo />
       <Mission />
+      <Demo />
       <Team />
       <Footer />
     </>

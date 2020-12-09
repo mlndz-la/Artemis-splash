@@ -1,6 +1,25 @@
 .demo-container {
+  grid-area: demo;
+  padding: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem;
+  flex-direction: column;
+}
+
+.screenshot {
+  max-width: 800px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(26, 25, 25);
+  transition: 500ms ease-in-out;
+}
+
+.screenshot:hover {
+  transform: translateY(-10px) translateX(-10px);
+  box-shadow: 15px 15px 15px rgb(17, 16, 16);
+}
+
+.screenshot-text {
+  max-width: 800px;
+  padding: 3rem;
 }

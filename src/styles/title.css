@@ -7,7 +7,6 @@
 }
 
 .artemis-logo {
-  width: 280px;
-  height: 280px;
+  max-width: 3em;
   margin-right: 20px;
 }

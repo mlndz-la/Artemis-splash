@@ -1,4 +1,6 @@
-.misson-container {
+.mission-container {
+  font-weight: bold;
+  font-size: 2rem;
   text-align: center;
-  padding: 5rem;
+  padding: 12rem;
 }
