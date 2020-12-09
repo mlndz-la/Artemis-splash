@@ -4,13 +4,15 @@ const Footer = () => {
   return (
     <div className='footerwrapper'>
       <section>
-        <a href='#'>ReadMe</a>
+        <a href='https://github.com/oslabs-beta/projectArtemis/blob/main/README.md'>
+          ReadMe
+        </a>
       </section>
       <section>
         <a href='#'>Social</a>
       </section>
       <section>
-        <a href='#'>Github</a>
+        <a href='https://github.com/oslabs-beta/projectArtemis'>Github</a>
       </section>
     </div>
   );
