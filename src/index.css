@@ -47,18 +47,18 @@ body {
   }
 
   .team-member__img {
-    width: 6 em;
+    width: 6em;
   }
 }
 
 /* devices bigger than 600px ( Tablets (Portrait Mode) ) */
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .title-container {
     font-size: 2rem;
   }
 
   .artemis-logo {
-    max-width: 3em;
+    max-width: 13em;
   }
 
   .mission-container {
@@ -69,16 +69,4 @@ body {
   .screenshot {
     max-width: 40em;
   }
-}
-
-/* devices bigger than 900px ( Tablets (Landscape Mode) ) */
-@media (min-width: 900px) {
-}
-
-/* devices bigger than 1200px ( Desktop )*/
-@media (min-width: 1200px) {
-}
-
-/* devices bigger than 1800px ( Big Desktop ) */
-@media (min-width: 1800px) {
-}
+} */
